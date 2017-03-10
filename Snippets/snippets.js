@@ -89,7 +89,18 @@
 
  for (var i = 0; i < 10; i++){
 	console.log ('i is', i);
- }
+ } // Will loop through until the comparison operator is false
+ 
+ 
+	 var playlist = [];
+	playlist[0] = "One For The Team";
+	playlist[1] = "The Joy Formidable";
+	playlist[2] = "Young the Giant";
+	playlist[3] = "Washed Out";
+ 
+ for (i in playList) { 
+  document.write("<br/>Now Playing: " + playList[i]); // Will loop through and print all items in the playList array similar to the for loop without the incrementer
+}
 
  var myList = ['apples', 'oranges', 'bananas'];
 
